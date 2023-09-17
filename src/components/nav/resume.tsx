@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image'
 import me from '../../../public/me.png'
+import Link from 'next/link';
 
 const Resume = () => {
     const [text, setText] = useState<string>('');
@@ -35,7 +36,7 @@ const Resume = () => {
                     <p><span className='text-auxiliar font-bold'>{text}</span> Based In Maputo, Mozambique</p>
                     <div className='flex mt-10 gap-2'>
                         <a href="#" className="hover:text-white font-bold  px-2 py-1 box-shadow bg-secundary text-auxiliar">Connect-me</a>
-                        <a href="#" className="hover:text-white font-bold  px-2 py-1 box-shadow bg-secundary text-auxiliar">Resume</a>
+                        <Link href="https://raymolide.vercel.app/" target='_blank' className="hover:text-white font-bold  px-2 py-1 box-shadow bg-secundary text-auxiliar">Resume</Link>
 
                     </div>
                 </div>
