@@ -14,9 +14,11 @@ function Footer() {
                 </div>
             </div>
             <div className="relative">
-                <div className="bg-[#A388EE] p-5 rounded-2xl  absolute bottom-4 w-[400px] ">
-                    <div className=' flex flex-col justify-center text-2xl '>
-                        <p>Follow me on my social media handles</p>
+                <div className="bg-[#A388EE] p-5 w-72 rounded-2xl  absolute bottom-4 flex   ">
+                    <div className=' flex-flex-col justify-center text-2xl '>
+                       <div className="flex-1">
+                       <p className='   '>Follow me on my social media handles</p>
+                       </div>
                         <div className="flex justify-center space-x-4">
                             <Link href="https://twitter.com/raymolide" target='_blank'>
                                 <Image width={32} height={32} src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/twitter.svg" alt="Twitter" className="w-8 h-8 hover:opacity-80" />

@@ -20,7 +20,9 @@ function About() {
                     </div>
                 </div>
                 <div className="flex-1 pl-5">
-                    <div className='text-2xl text-justify'>                    
+                    <div className='text-2xl text-justify'>
+                        <p>I am <span className='text-auxiliar font-semibold'>Web and Mobile Developer</span>. Passionate about turning concepts into exceptional digital experiences. Always seeking innovation and staying updated with the latest technological trends to deliver high-quality products and enhance the user experience.</p>
+                    
                     </div>
                 </div>
             </div>
