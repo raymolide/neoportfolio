@@ -7,10 +7,10 @@ import Resume from '@/components/nav/resume'
 export default function Home() {
   return (
     <div className='bg-primary'>
-     <div className='lg:fixed w-full top-0 lg:mb-10'>
+     <div className='fixed w-full top-0 lg:mb-10'>
      <NavBar />
      </div>
-      <div id='home' className='box-shadow border border-black mx-2 my-2 lg:mt-20 bg-white lg:p-5 max-w-screen-sm lg:max-w-screen-xl lg:mx-auto'>
+      <div id='home' className='box-shadow border border-black mx-2 mt-20 my-2 lg:mt-20 bg-white lg:p-5 max-w-screen-sm lg:max-w-screen-xl lg:mx-auto'>
         <Resume />
       </div>
 

@@ -14,7 +14,7 @@ function Footer() {
                 </div>
             </div>
             <div className="lg:relative">
-                <div className="  bg-[#A388EE] lg:p-5 lg:w-72 lg:rounded-2xl  lg:absolute lg:bottom-4     ">
+                <div className="  bg-[#A388EE] lg:p-5 lg:w-72 lg:rounded-2xl  p-2  lg:absolute lg:bottom-4     ">
                     <div className=' flex flex-col justify-center text-2xl '>
                        <div className="flex-1">
                        <p className='   '>Follow me on my social media handles</p>
