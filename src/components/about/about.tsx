@@ -20,8 +20,7 @@ function About() {
                     </div>
                 </div>
                 <div className="flex-1 pl-5">
-                    <div className='text-2xl text-justify'>
-                    
+                    <div className='text-2xl text-justify'>                    
                     </div>
                 </div>
             </div>
