@@ -8,7 +8,7 @@ function About() {
             </div>
             <div className="flex justify-between items-center p-10 text-white box-shadow">
 
-                <div className="flex-1 text-center">
+                <div className="hidden lg:block flex-1 text-center">
                     <div className="flex mx-2 items-center justify-center">
                         <div className="   rounded-lg overflow-hidden  bg-[#87CEEB]">
                             <div className='  '>

@@ -4,7 +4,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="flex flex-row w-full justify-evenly mx-auto p-5 bg-[#ff9a02] h-[150px]   ">
+        <footer className="flex flex-col lg:flex-row w-full text-center justify-center lg:justify-evenly lg:mx-auto lg:p-5 bg-[#ff9a02] lg:h-[150px]   ">
             <div className=" ">
                 <div className='text-2xl'>
                     <p className='text-4xl font-bold uppercase'>Get in touch</p>
@@ -13,9 +13,9 @@ function Footer() {
                     
                 </div>
             </div>
-            <div className="relative">
-                <div className="bg-[#A388EE] p-5 w-72 rounded-2xl  absolute bottom-4 flex   ">
-                    <div className=' flex-flex-col justify-center text-2xl '>
+            <div className="lg:relative">
+                <div className="  bg-[#A388EE] lg:p-5 lg:w-72 lg:rounded-2xl  lg:absolute lg:bottom-4     ">
+                    <div className=' flex flex-col justify-center text-2xl '>
                        <div className="flex-1">
                        <p className='   '>Follow me on my social media handles</p>
                        </div>
