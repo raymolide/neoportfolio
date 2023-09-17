@@ -10,11 +10,11 @@ export default function Home() {
      <div className='fixed w-full top-0 lg:mb-10'>
      <NavBar />
      </div>
-      <div id='home' className='box-shadow border border-black mx-2 mt-20 my-2 lg:mt-20 bg-white lg:p-5 max-w-screen-sm lg:max-w-screen-xl lg:mx-auto'>
+      <div id='home' className='box-shadow  mx-2 mt-20 my-2 lg:mt-20 bg-white lg:p-5 max-w-screen-sm lg:max-w-screen-xl lg:mx-auto'>
         <Resume />
       </div>
 
-      <div id='about' className='lg:p-5 lg:max-w-screen-xl lg:mx-auto'>
+      <div id='about' className='box-shadow py-2 m-2 my-5   lg:mt-10  lg:flex-row lg:p-5 max-w-screen-sm lg:max-w-screen-xl lg:mx-auto'>
         <About />
       </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
             <div className='text-center'>
               <p>Jenkins</p>
               <p>GIT</p>
-              <p>AZURE</p>
+              <p>Azure</p>
             </div>
           </div>
 

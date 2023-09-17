@@ -6,7 +6,7 @@ function About() {
             <div>
                 <h1 className="text-2xl font-bold text-center"><span className='text-auxiliar'>About</span> Me</h1>
             </div>
-            <div className="flex justify-between items-center p-10 text-white box-shadow">
+            <div className="flex justify-between items-center p-10 text-white ">
 
                 <div className="hidden lg:block flex-1 text-center">
                     <div className="flex mx-2 items-center justify-center">
