@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import React from 'react'
 
 function Footer() {
@@ -18,13 +19,13 @@ function Footer() {
                         <p>Follow me on my social media handles</p>
                         <div className="flex justify-center space-x-4">
                             <Link href="https://twitter.com/raymolide" target='_blank'>
-                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/twitter.svg" alt="Twitter" className="w-8 h-8 hover:opacity-80" />
+                                <Image width={32} height={32} src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/twitter.svg" alt="Twitter" className="w-8 h-8 hover:opacity-80" />
                             </Link>
                             <Link href="https://www.instagram.com/raymolide/" target='_blank'>
-                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/instagram.svg" alt="Instagram" className="w-8 h-8 hover:opacity-80" />
+                                <Image width={32} height={32} src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/instagram.svg" alt="Instagram" className="w-8 h-8 hover:opacity-80" />
                             </Link>
                             <Link href="https://www.linkedin.com/in/raymolide/" target='_blank'>
-                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/linkedin.svg" alt="LinkedIn" className="w-8 h-8 hover:opacity-80" />
+                                <Image width={32} height={32} src="https://cdn.jsdelivr.net/npm/simple-icons@5.15.0/icons/linkedin.svg" alt="LinkedIn" className="w-8 h-8 hover:opacity-80" />
                             </Link>
                         </div>
                     </div>
